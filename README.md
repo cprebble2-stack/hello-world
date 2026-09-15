@@ -1,6 +1,6 @@
 # hello-world
 
-A learning repository for practicing the GitHub Flow workflow with Python.
+A learning repository for practicing the GitHub Flow workflow with Python. This project includes a financial calculator application to demonstrate real-world development practices.
 
 ## Prerequisites
 
@@ -21,6 +21,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies (if any)
 pip install -r requirements.txt
+
+# Run the financial calculator
+python financial_calculator.py
+
+# Run tests
+python -m pytest test_financial_calculator.py
 
 # Create a feature branch
 git checkout -b feature/my-feature
@@ -44,6 +50,12 @@ This repository demonstrates core GitHub concepts:
 - Opening and reviewing pull requests
 - Merging changes
 
+**Project Focus:** Financial Calculator
+- `financial_calculator.py` — Core financial calculation logic
+- `financial_viz.py` — Data visualization features
+- `test_financial_calculator.py` — Unit tests
+- See [FINANCIAL_CALCULATOR_DOCS.md](FINANCIAL_CALCULATOR_DOCS.md) for detailed documentation
+
 ## Common Workflow Commands
 
 | Task | Command |
@@ -64,7 +76,9 @@ This repository demonstrates core GitHub concepts:
 | Create virtual environment | `python3 -m venv venv` |
 | Activate virtual environment | `source venv/bin/activate` |
 | Install dependencies | `pip install -r requirements.txt` |
-| Run your script | `python script.py` |
+| Run main script | `python financial_calculator.py` |
+| Run tests | `python -m pytest test_financial_calculator.py` |
+| Run visualization | `python financial_viz.py` |
 | Deactivate virtual environment | `deactivate` |
 
 ## GitHub Flow Steps
@@ -81,6 +95,8 @@ This repository demonstrates core GitHub concepts:
 - [GitHub Hello World Tutorial](https://guides.github.com/activities/hello-world/)
 - [Git Documentation](https://git-scm.com/doc)
 - [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
+- [FINANCIAL_CALCULATOR_DOCS.md](FINANCIAL_CALCULATOR_DOCS.md)
+- [IMPROVEMENTS.md](IMPROVEMENTS.md)
 
 ## License
 

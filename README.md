@@ -2,6 +2,11 @@
 
 A learning repository for practicing the GitHub Flow workflow.
 
+## Prerequisites
+
+- Git installed on your machine ([Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+- A GitHub account
+
 ## Quick Start
 
 ```bash
@@ -20,12 +25,7 @@ git commit -m "Add my feature"
 git push origin feature/my-feature
 ```
 
-## Getting Started
-
-1. Clone this repository: `git clone https://github.com/cprebble2-stack/hello-world.git`
-2. Create a feature branch: `git checkout -b feature/your-branch-name`
-3. Make changes and commit: `git commit -m "Your message"`
-4. Push and create a pull request: `git push origin feature/your-branch-name`
+After pushing, go to GitHub and open a Pull Request to merge your branch into `main`.
 
 ## About This Project
 
@@ -35,7 +35,7 @@ This repository demonstrates core GitHub concepts:
 - Opening and reviewing pull requests
 - Merging changes
 
-## Workflow Commands
+## Common Workflow Commands
 
 | Task | Command |
 |------|---------|
@@ -47,6 +47,14 @@ This repository demonstrates core GitHub concepts:
 | Undo last commit | `git reset HEAD~1` |
 | Pull latest changes | `git pull origin main` |
 | Delete a local branch | `git branch -d feature-name` |
+
+## GitHub Flow Steps
+
+1. **Create a Branch** — `git checkout -b feature/description`
+2. **Commit Changes** — `git add .` then `git commit -m "message"`
+3. **Push Branch** — `git push origin feature/description`
+4. **Open Pull Request** — Create PR on GitHub to review changes
+5. **Merge** — Merge PR into main branch after review
 
 ## Resources
 

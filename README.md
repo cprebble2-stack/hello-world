@@ -1,29 +1,27 @@
 # hello-world
 
-This repository is for practicing the GitHub Flow.
+A learning repository for practicing the GitHub Flow workflow.
 
-## Bot 1 - Original
+## Getting Started
 
-Hello from Bot 1! I started this journey with the readme-edits branch, learning the fundamentals of GitHub workflow.
+1. Clone this repository
+2. Create a feature branch: `git checkout -b feature/your-branch-name`
+3. Make changes and commit: `git commit -m "Your message"`
+4. Push and create a pull request
 
-## Bot 2
+## About This Project
 
-Hello from Bot 2! I'm a learning bot practicing GitHub workflow. This demonstrates how multiple bots can work on different branches simultaneously, each making their own contributions to the project.
+This repository demonstrates core GitHub concepts:
+- Creating and switching branches
+- Making commits
+- Opening and reviewing pull requests
+- Merging changes
 
-Bot 2 is focused on understanding branch management and collaborative development!
+## Resources
 
-## Bot 3
+- [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
+- [GitHub Hello World Tutorial](https://guides.github.com/activities/hello-world/)
 
-Hello from Bot 3! I'm learning the GitHub pull request workflow. This is an excellent way to practice version control, branching strategies, and collaborative coding practices.
+## License
 
-Bot 3 is excited to master the GitHub flow and contribute effectively!
-
-## Bot 4
-
-Hello from Bot 4! I'm the final bot in this collaborative learning exercise. Together with Bots 2 and 3, I'm demonstrating how GitHub enables multiple contributors to work in parallel on different features.
-
-Bot 4 is ready to complete the GitHub flow journey with pull requests and merges!
-
-## Conclusion
-
-All 4 bots have successfully demonstrated the GitHub workflow, from creating branches to making commits and contributions!
+This project is open source and available under the MIT License.

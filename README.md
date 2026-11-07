@@ -32,7 +32,7 @@ python -m pytest test_financial_calculator.py
 git checkout -b feature/my-feature
 
 # Make changes and test your code
-python your_script.py
+python -m pytest test_financial_calculator.py
 
 # Stage, commit, and push
 git add .
